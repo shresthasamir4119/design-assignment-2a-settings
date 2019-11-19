@@ -1,0 +1,22 @@
+.search{
+	margin: 5px 1px 0 13px;
+}
+.header-top-nav li{
+	float: right;
+	padding:20px;
+	margin:0 4px;
+	line-height: 10px;
+	color:#ffffff;
+	background-color: black;
+}
+.header-top-nav ul{
+	float:left;
+}
+.hamburg{
+	float: left;
+	padding: 4vw;
+	background-color: white;
+}
+.hamburg:hover{
+	background-color: black;
+}

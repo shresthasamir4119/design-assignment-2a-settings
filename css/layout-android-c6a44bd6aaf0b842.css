@@ -1,0 +1,26 @@
+.main{
+	padding: 0 15px;
+	background-color: red;
+}
+.header-top{
+	background-color: #76c7c1;
+	padding: 20px 0 0 10px;
+}
+.logo{
+	float:left;
+}
+.nav-n-srch{
+	float: right;
+
+}
+.header-top-nav{
+	float: left;
+}
+.search{
+	float:right;
+}
+@media only screen and (max-width: 360px){
+	li{
+		width: 100%;
+	}
+}

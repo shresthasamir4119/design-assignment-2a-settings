@@ -1,0 +1,44 @@
+.main{
+	padding: 0 10px;
+	background-color: red;
+}
+.header-top{
+	background-color: #76c7c1;
+	padding: 20px 0 20px 10px;
+}
+.logo{
+	float:left;
+	
+}
+.hamburg{
+/*	display: none;*/
+}
+.nav-n-srch{
+	float: right;
+
+}
+.header-top-nav{
+	float: left;
+}
+.search{
+	float:right;
+}
+@media only screen and (max-width: 360px){
+	.header-top-nav ul{
+		display: none;
+	}
+	.hamburg{
+		display: block;
+	}
+	.logo img{
+		width: 100%;
+		height: auto;
+	}
+	h2{
+		font-size: 4vw;
+	}
+	.hamburg:hover .header-top-nav{
+		display: block;
+		
+	}
+}
